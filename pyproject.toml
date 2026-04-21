@@ -7,7 +7,12 @@ requires-python = ">=3.12"
 dependencies = [
     "anthropic[bedrock]>=0.96.0",
     "boto3>=1.42.91",
+    "gitsource>=0.0.4",
     "ipykernel>=7.2.0",
+    "jaxn>=0.0.5",
     "jupyter>=1.1.1",
+    "langchain>=1.2.15",
+    "minsearch>=0.0.10",
     "python-dotenv>=1.2.2",
+    "toyaikit>=0.0.9",
 ]

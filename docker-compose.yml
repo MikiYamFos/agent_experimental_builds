@@ -1,0 +1,41 @@
+services:
+  pgvector:
+    image: pgvector/pgvector:pg16-trixie
+    container_name: pgvector
+    environment:
+      POSTGRES_DB: app
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: app
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgvector_data:/var/lib/postgresql/data
+
+  typesense:
+    image: typesense/typesense:30.2
+    container_name: typesense
+    command: >
+      --data-dir /data
+      --api-key=xyz
+      --enable-cors
+    ports:
+      - "8108:8108"
+    volumes:
+      - typesense_data:/data
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:9.3.3
+    container_name: elasticsearch
+    environment:
+      discovery.type: single-node
+      xpack.security.enabled: "false"
+      ES_JAVA_OPTS: "-Xms1g -Xmx1g"
+    ports:
+      - "9200:9200"
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+
+volumes:
+  pgvector_data:
+  typesense_data:
+  es_data:
