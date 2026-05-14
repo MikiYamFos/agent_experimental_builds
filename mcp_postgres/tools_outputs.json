@@ -1,0 +1,73 @@
+{
+    "jsonrpc": "2.0",
+    "id": 2,
+    "result": {
+        "tools": [
+            {
+                "name": "add_entry",
+                "description": "Add a new entry to the FAQ database.",
+                "inputSchema": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "question": {
+                            "type": "string",
+                            "description": "The question to be added to the FAQ database."
+                        },
+                        "answer": {
+                            "type": "string",
+                            "description": "The corresponding answer to the question."
+                        }
+                    },
+                    "required": [
+                        "question",
+                        "answer"
+                    ],
+                    "type": "object"
+                },
+                "_meta": {
+                    "fastmcp": {
+                        "tags": []
+                    }
+                }
+            },
+            {
+                "name": "search",
+                "description": "Search the FAQ database for entries matching the given query.",
+                "inputSchema": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "query": {
+                            "type": "string",
+                            "description": "Search query text to look up in the course FAQ."
+                        }
+                    },
+                    "required": [
+                        "query"
+                    ],
+                    "type": "object"
+                },
+                "outputSchema": {
+                    "properties": {
+                        "result": {
+                            "items": {
+                                "additionalProperties": true,
+                                "type": "object"
+                            },
+                            "type": "array"
+                        }
+                    },
+                    "required": [
+                        "result"
+                    ],
+                    "type": "object",
+                    "x-fastmcp-wrap-result": true
+                },
+                "_meta": {
+                    "fastmcp": {
+                        "tags": []
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following formula: "
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{\\partial z}{\\partial x}dx + \\frac{\\partial z}{\\partial y}dy",
+        "description": "This formula describes how the total change in the function $z$ is related to the changes in $x$ and $y$, scaled by their respective partial derivatives."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of $x$, $y$, and $z$, and introduce the actually measurable quantities like $x$, $y$, and $z$. "
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 21",
+        "description": "The figure illustrates a point $(x, y)$ on the surface defined by the function $z = f(x, y)$. It shows how the position is influenced by a change in position along the $x$ and $y$ axes, leading to a corresponding change in $z$. This visually represents the concept of total differential in multivariable calculus.",
+        "figure_number": 21
+      },
+      {
+        "type": "text",
+        "text": "Thus, \n\nor total change in z  = change in z due to the change in x + change in z due to the change in y.\n\nThe change in $z$ due to a change in $x$ can be measured by the product of the change in $x$ multiplied by the rate at which z is changing with respect to $x$; and that fact can be better illustrated by referring to a diagram."
+      },
+      {
+        "type": "text",
+        "text": "Let P be a point $(x, y)$ on a surface, and let P move to a new position Q near to P on the surface (Q being kept constant)."
+      }
+    ]
+  },
+  "cost": 0.00081465
+}

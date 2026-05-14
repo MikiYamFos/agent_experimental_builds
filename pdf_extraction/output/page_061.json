@@ -1,0 +1,45 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following equation:"
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{\\partial z}{\\partial x}dx + \\frac{\\partial z}{\\partial y}dy",
+        "description": "Total differential of $z$ in terms of partial derivatives with respect to $x$ and $y$."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of change, and introduce the actually measurable quantities like $\\Delta x$ and $\\Delta y$."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 21",
+        "description": "This figure illustrates the relationship between the changes in the variables involved in the function $z$, showing how the change in $z$ relates to the changes in $x$ and $y$.",
+        "figure_number": 21
+      },
+      {
+        "type": "text",
+        "text": "Thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\Delta z = \\Delta x \\cdot \\frac{\\partial z}{\\partial x} + \\Delta y \\cdot \\frac{\\partial z}{\\partial y}",
+        "description": "The total change in $z$ with respect to changes in $x$ and $y$."
+      },
+      {
+        "type": "text",
+        "text": "Let P be a point $(x, y, z)$ on a surface, and let P move to a new position Q near P on the surface. The change of position is most easily described as a change in $x$ (keeping $y$ constant)."
+      },
+      {
+        "type": "text",
+        "text": "The change in $z$ due to the change in $x$ can be better illustrated by referring to a diagram (Fig. 21)."
+      }
+    ]
+  },
+  "cost": 0.00080445
+}

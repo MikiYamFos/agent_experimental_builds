@@ -1,0 +1,45 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following relation: "
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{\\partial z}{\\partial x} dx + \\frac{\\partial z}{\\partial y} dy",
+        "description": "Total differential of a function of two variables."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of change, and introduce the actually measurable quantities like $x$ and $y$. "
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 21",
+        "description": "This figure illustrates a point P on the surface described by the function z, with coordinates (x, y) and changes in position represented. It shows how small changes in x and y affect the value of z.",
+        "figure_number": 21
+      },
+      {
+        "type": "text",
+        "text": "Thus: "
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dz}{dt} = \\frac{dz}{dx} \\frac{dx}{dt} + \\frac{dz}{dy} \\frac{dy}{dt}",
+        "description": "This equation represents the chain rule for functions of two variables."
+      },
+      {
+        "type": "text",
+        "text": "The change in $z$ due to a change in $x$ can be measured by the product of the change in $x$ multiplied by the rate at which $z$ changes with respect to $x$; and this fact can be further illustrated by referring to a diagram (Fig. 21). "
+      },
+      {
+        "type": "text",
+        "text": "Let P be a point $(x, y)$ on a surface, and let P move to a new position Q near to P on the surface. The change of position is most simply expressed as the change from P to Q on the surface (y being kept constant)."
+      }
+    ]
+  },
+  "cost": 0.0008134500000000001
+}

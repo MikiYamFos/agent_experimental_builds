@@ -1,0 +1,12 @@
+[project]
+name = "pdf-extraction"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pillow>=12.2.0",
+    "pymupdf>=1.27.2.3",
+    "sqlitesearch>=0.0.4",
+    "tqdm>=4.67.3",
+]

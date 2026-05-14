@@ -1,0 +1,23 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If z is a function of x and y, i.e., z = f(x,y), the total differential dz is obtained from the partial differentials dx and dy by the use of the following formula:\n\ndz = \\left( \\frac{\\partial z}{\\partial x} \\right) dx + \\left( \\frac{\\partial z}{\\partial y} \\right) dy.\n\nThe reason for this is more clearly seen if we work from the fundamental idea of functions of one change, and introduce the actually measurable quantities like z, x, and y."
+      },
+      {
+        "type": "figure",
+        "caption": null,
+        "description": "The figure illustrates the relationship between the changes in the variables x and y and the resulting change in the variable z on a surface defined by the function f(x,y). It helps in understanding how small changes in x and y affect z.",
+        "figure_number": 1
+      },
+      {
+        "type": "text",
+        "text": "Thus:\n\n\\[ \\text{total change in } z = \\text{change in } z \\text{ due to the change in } x. \\] \n\nThe change in z due to a change in x can be measured by the product of the change in x multiplied by the rate at which z changes with respect to x; and this fact can be better illustrated by referring to a diagram (Fig. 21).\n\nLet P be a point (x, y) on a surface, and let P move to a new position Q near to P. The change of position is almost like a rectangle on the surface (y being kept constant)."
+      }
+    ]
+  },
+  "cost": 0.00076665
+}

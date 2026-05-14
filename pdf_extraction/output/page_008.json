@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If z is a function of x and y, i.e., z = f(x, y), the total differential dz is obtained from the partial differentials dx and dy by the use of the following rule:"
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{dz}{dx} dx + \\frac{dz}{dy} dy",
+        "description": "This equation defines the total differential in terms of its partial derivatives."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of functions of one change, and introduce the actually measurable quantities like $dx$ and $dy$."
+      },
+      {
+        "type": "figure",
+        "caption": null,
+        "description": "The figure illustrates the change in a point on a surface defined by the function z = f(x, y). The coordinates x and y change, leading to a corresponding change in z. It visually expresses the relationship between the changes in x, y, and z.",
+        "figure_number": 1
+      },
+      {
+        "type": "text",
+        "text": "Thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{change in } z = \\text{change in } x + \\text{change in } y.",
+        "description": "This states that the overall change in z can be characterized by the changes in x and y."
+      },
+      {
+        "type": "text",
+        "text": "Let P be a point (x, y) on a surface, and let P move to a new position Q near to P on the surface. The change of position is noted by the coordinate changes in x and y: the point is kept constant."
+      }
+    ]
+  },
+  "cost": 0.00076005
+}

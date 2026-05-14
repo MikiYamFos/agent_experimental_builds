@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following rule:"
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{dz}{dx}dx + \\frac{dz}{dy}dy",
+        "description": "This equation defines the total differential in terms of partial derivatives."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of a function of one change, and introduce the actually measurable quantities like $x$ and $y$."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 21",
+        "description": "The figure illustrates a point moving on the surface defined by $z=f(x,y)$ as $x$ and $y$ change.",
+        "figure_number": 21
+      },
+      {
+        "type": "text",
+        "text": "Thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{total change in } z = \\text{change in } z \\text{ due to the change in } x",
+        "description": "This emphasizes how $z$ changes with respect to $x$."
+      },
+      {
+        "type": "text",
+        "text": "Let $P$ be a point $(x, y, z)$ on a surface, and let $P$ move to a new position $Q$ near to $P$. The change of position is noted by vector notation, i.e., $\\Delta x$ is change on the surface (y being kept constant)."
+      }
+    ]
+  },
+  "cost": 0.00076125
+}

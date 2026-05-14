@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following relation: "
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{\\partial z}{\\partial x}dx + \\frac{\\partial z}{\\partial y}dy",
+        "description": "The total differential of a function of multiple variables relates the changes in those variables to the change in the function."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of a surface, and introduce the actually measurable quantities like $x$, $y$, and $z$. "
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 21: Change in position on a surface.",
+        "description": "This figure illustrates the concept of a point moving on a surface defined by $z = f(x,y)$. The change in $z$ relates to the changes in $x$ and $y$ multiplied by their respective rates, indicating how $z$ varies based on the motion in the $xy$-plane.",
+        "figure_number": 21
+      },
+      {
+        "type": "text",
+        "text": "Thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dz}{dt} = \\frac{\\partial z}{\\partial x} \\cdot \\frac{dx}{dt} + \\frac{\\partial z}{\\partial y} \\cdot \\frac{dy}{dt}",
+        "description": "This equation expresses how the change in $z$ over time is influenced by the changes in $x$ and $y$, weighted by their respective rates of change."
+      },
+      {
+        "type": "text",
+        "text": "Let $P$ be a point $(x, y, z)$ on a surface, and let $P$ move to a new position $Q$ near to $P$. The change of position is most likely to affect $z$ based on the position on the surface (e.g., keeping $z$ constant)."
+      }
+    ]
+  },
+  "cost": 0.00082485
+}

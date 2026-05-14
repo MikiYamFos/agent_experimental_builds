@@ -1,0 +1,23 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following formula: \n$$dz = \\frac{\\partial z}{\\partial x} dx + \\frac{\\partial z}{\\partial y} dy.$$ \nThe reason for this is more clearly seen if we work from the fundamental idea of points in space, and introduce the actually measurable quantities like $x$, $y$, and $z$."
+      },
+      {
+        "type": "figure",
+        "caption": null,
+        "description": "This figure illustrates how a point $(x, y)$ on a surface changes position to a point $Q$ as $x$ and $y$ vary, describing the relationship between the change in $z$ and the position on the surface.",
+        "figure_number": 21
+      },
+      {
+        "type": "text",
+        "text": "Thus: \n \n\\[ \\text{total change in } z = \\text{change in } z \\text{ due to change in } x. \\] \nThe change in $z$ due to an increment of $x$ can be measured by the product of the change in $x$ multiplied by the rate at which $z$ is changing with respect to $x$, and that fact can be better illustrated by referring to a diagram (Fig. 21). \nLet $P$ be a point $(x, y)$ on a surface, and let $P$ move to a new position $Q$ near to $P$. The change of position is denoted by the vector $dQ$ for a point $P$ on the surface (e.g. keeping constant)."
+      }
+    ]
+  },
+  "cost": 0.00078825
+}

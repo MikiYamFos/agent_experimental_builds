@@ -12,6 +12,7 @@ dependencies = [
     "jaxn>=0.0.5",
     "jupyter>=1.1.1",
     "langchain>=1.2.15",
+    "logfire>=4.32.1",
     "markitdown[pdf]>=0.1.5",
     "minsearch==0.0.10",
     "pydantic-ai>=1.89.1",
@@ -19,4 +20,11 @@ dependencies = [
     "python-frontmatter>=1.1.0",
     "requests>=2.33.1",
     "toyaikit>=0.0.9",
+]
+
+[tool.uv.workspace]
+members = [
+    "mcp_postgres",
+    "pdf_extraction",
+    "trivia_quizmaster",
 ]

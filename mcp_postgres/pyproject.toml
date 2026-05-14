@@ -1,0 +1,14 @@
+[project]
+name = "mcp-postgres"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=3.2.4",
+    "minsearch>=0.0.10",
+    "openai>=2.32.0",
+    "pydantic-ai>=1.89.1",
+    "requests>=2.33.1",
+    "toyaikit>=0.0.9",
+]

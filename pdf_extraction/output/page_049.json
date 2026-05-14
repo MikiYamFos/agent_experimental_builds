@@ -1,0 +1,45 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following formula:"
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{\\partial z}{\\partial x} dx + \\frac{\\partial z}{\\partial y} dy",
+        "description": "This equation expresses the total differential of a function in terms of its partial derivatives."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of change, and introduce the actually measurable quantities like $x$, $y$, and $z$."
+      },
+      {
+        "type": "text",
+        "text": "Thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{total change in } z = \\text{change in } z \\text{ due to the change in } x + \\text{change in } z \\text{ due to the change in } y.",
+        "description": "This equation summarizes the total change in a function based on variations in its variables."
+      },
+      {
+        "type": "text",
+        "text": "Let $P$ be a point $(x, y)$ on a surface, and let $P$ move to a new position $Q$ near to $P$."
+      },
+      {
+        "type": "text",
+        "text": "The change of position is denoted by $\\Delta x$ and $\\Delta y$, which can be related to the change in $z$."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 21",
+        "description": "The figure illustrates the relationship between the changes in positions $P$ to $Q$ on the surface and how it corresponds to the change in $z$.",
+        "figure_number": 21
+      }
+    ]
+  },
+  "cost": 0.00078765
+}

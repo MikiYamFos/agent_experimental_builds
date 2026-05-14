@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following relation:"
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{\\partial z}{\\partial x}dx + \\frac{\\partial z}{\\partial y}dy",
+        "description": "This equation describes how the total differential of a function can be expressed in terms of its partial derivatives with respect to its variables."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of location in space, and introduce the actually measurable quantities like $x$ and $y$."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 21: Change in position on a surface.",
+        "description": "This figure illustrates how a point moves from position $P$ to position $Q$ on the surface, demonstrating the relationship between the rates of change of $x$ and $y$ as the point moves along the surface.",
+        "figure_number": 21
+      },
+      {
+        "type": "text",
+        "text": "Thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{change in } z = \\text{change in } x \\cdot \\text{change in } y",
+        "description": "This expression emphasizes the relationship between changes in variables and the resulting change in the function value."
+      },
+      {
+        "type": "text",
+        "text": "Let P be a point $(x, y)$ on a surface, and let P move to a new position Q near to P on the surface. The change of position is most easily represented by a diagram (Fig. 21)."
+      }
+    ]
+  },
+  "cost": 0.00077805
+}

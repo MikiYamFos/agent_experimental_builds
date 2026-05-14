@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following relation:"
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{\\partial z}{\\partial x} dx + \\frac{\\partial z}{\\partial y} dy",
+        "description": "This equation expresses how a change in the function $z$ depends on changes in $x$ and $y$."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of changes, and introduce the actually measurable quantities like $\\Delta x$ and $\\Delta y$."
+      },
+      {
+        "type": "figure",
+        "caption": "Graph illustrating the relationship among variables x, y, and z.",
+        "description": "The figure shows a surface where the variables x and y interact to determine the value of z. The change in z is related to changes in x and y through the total differential. It emphasizes how changes in position on the surface affect the resultant change in z as we move from point P to another point Q on the surface.",
+        "figure_number": 1
+      },
+      {
+        "type": "text",
+        "text": "Thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\Delta z = change \\ in \\ z \\ due \\ to \\ the \\ change \\ in \\ x + change \\ in \\ z \\ due \\ to \\ the \\ change \\ in \\ y",
+        "description": "This describes how the overall change in z can be attributed to individual contributions from changes in x and y."
+      },
+      {
+        "type": "text",
+        "text": "Let P be a point $(x, y, z)$ on a surface, and let P move to a new position Q near to P on the surface. The change of position is most easily measured along the curve on the surface (y being kept constant)."
+      }
+    ]
+  },
+  "cost": 0.00080505
+}
