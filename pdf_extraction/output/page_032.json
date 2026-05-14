@@ -1,0 +1,45 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following relation:"
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{\\partial z}{\\partial x} dx + \\frac{\\partial z}{\\partial y} dy",
+        "description": "This equation defines the total differential of a function in terms of its partial derivatives."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of change, and introduce the actually measurable quantities like $\\Delta x$ and $\\Delta y$."
+      },
+      {
+        "type": "figure",
+        "caption": null,
+        "description": "The figure illustrates the relationship between changes in the variables $x$, $y$, and $z$ and shows how these changes are interconnected in the context of differentiation.",
+        "figure_number": 1
+      },
+      {
+        "type": "text",
+        "text": "Thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\Delta z = \\Delta x \\cdot \\frac{\\partial z}{\\partial x} + \\Delta y \\cdot \\frac{\\partial z}{\\partial y}",
+        "description": "This equation quantifies the change in $z$ in relation to changes in $x$ and $y$."
+      },
+      {
+        "type": "text",
+        "text": "The change in $z$ due to a change in $x$ and $y$ can be measured by the product of the change in $x$ multiplied by the rate at which $z$ changes with respect to $x$; and this fact can be better illustrated by referring to a diagram (Fig. 21)."
+      },
+      {
+        "type": "text",
+        "text": "Let P be a point $(x, y)$ on a surface, and let P move to a new position Q near to P on the surface. The change of position is most easily viewed as a small movement along the surface."
+      }
+    ]
+  },
+  "cost": 0.00081585
+}

@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following formula:"
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{\\partial z}{\\partial x}dx + \\frac{\\partial z}{\\partial y}dy",
+        "description": "This expresses how a small change in $z$ can be derived from small changes in $x$ and $y$."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of change, and introduce the actually measurable quantities like $\\Delta x$ and $\\Delta y$."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 21",
+        "description": "The figure illustrates the relationship between the changes in the variables $x$, $y$, and the resulting change in $z$. The movement from point $P$ to point $Q$ represents a change in position and accordingly a change in $z$.",
+        "figure_number": 21
+      },
+      {
+        "type": "text",
+        "text": "Thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\Delta z = \\Delta x \\cdot \\frac{\\partial z}{\\partial x} + \\Delta y \\cdot \\frac{\\partial z}{\\partial y}",
+        "description": "The total change in $z$ is determined by the changes in $x$ and $y$, weighted by their respective partial derivatives."
+      },
+      {
+        "type": "text",
+        "text": "Let $P$ be a point $(x, y)$ on a surface, and let $P$ move to a new position $Q$ near to $P$. The change of position is measured by $\\Delta x$ and $\\Delta y$."
+      }
+    ]
+  },
+  "cost": 0.00079605
+}

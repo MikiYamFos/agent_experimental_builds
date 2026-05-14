@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following formula:"
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{\\partial z}{\\partial x}dx + \\frac{\\partial z}{\\partial y}dy",
+        "description": "This formula expresses how the total change in $z$ can be accounted for by changes in $x$ and $y$."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of $x$ and $y$, and introduce the actually measurable quantities like $x$, $y$, and $z$."
+      },
+      {
+        "type": "figure",
+        "caption": null,
+        "description": "The figure illustrates the relationship between points in a plane and how the change in one variable affects another, emphasizing the significance of rates of change.",
+        "figure_number": 1
+      },
+      {
+        "type": "text",
+        "text": "Thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{total change in } z = \\text{ change in } z \\text{ due to the change in } x.",
+        "description": "This equation summarizes the change in $z$ as influenced by changes in $x$."
+      },
+      {
+        "type": "text",
+        "text": "Let $P$ be a point $(x, y)$ on a surface, and let $P$ move to a new position $Q$ near to $P$. The change of position is most easily referred to by a diagram."
+      }
+    ]
+  },
+  "cost": 0.00076785
+}

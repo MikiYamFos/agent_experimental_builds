@@ -1,0 +1,37 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following formula:"
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{\\partial z}{\\partial x} dx + \\frac{\\partial z}{\\partial y} dy",
+        "description": "This formula represents the total differential of a multivariable function."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of change, and introduce the actually measurable quantities like $\\Delta x$ and $\\Delta y$. Thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\Delta z = \\Delta x \\cdot \\frac{\\partial z}{\\partial x} + \\Delta y \\cdot \\frac{\\partial z}{\\partial y}",
+        "description": "This equation relates the change in $z$ to the changes in $x$ and $y$."
+      },
+      {
+        "type": "text",
+        "text": "The change in $z$ due to the change in $x$ can be measured by the product of the change in $x$ multiplied by the rate at which $z$ changes in $x$; and that fact can be better illustrated by referring to a diagram (Fig. 21). Let P be a point $(x, y)$ on a surface, and let P move to a new position Q near to P on the surface (by keeping $x$ constant). The change of position is denoted by $\\Delta x$."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 21",
+        "description": "This figure illustrates the relationship between the points P and Q on a surface, showing how the movement in the $x$ direction affects the value of $z$ while $y$ remains constant.",
+        "figure_number": 21
+      }
+    ]
+  },
+  "cost": 0.00080805
+}

@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x,y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following formula:"
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{\\partial z}{\\partial x} dx + \\frac{\\partial z}{\\partial y} dy",
+        "description": "This equation expresses the total differential of a function of multiple variables as a sum of the partial differentials."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of $x$, $y$, and introduce the actually measurable quantities like $x$ and $y$."
+      },
+      {
+        "type": "figure",
+        "caption": null,
+        "description": "The figure illustrates the relationship between the variables $x$, $y$, and the resulting change in $z$, depicting how changes in the independent variables affect the dependent variable on the surface.",
+        "figure_number": 1
+      },
+      {
+        "type": "text",
+        "text": "Thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{total change in } z = \\text{change in } z \\text{ due to the change in } x + \\text{change in } z \\text{ due to the change in } y.",
+        "description": "This statement summarizes the overall change in $z$ as a result of changes in both $x$ and $y$."
+      },
+      {
+        "type": "text",
+        "text": "Let P be a point (x, y, z) on a surface, and let P move to a new position Q near to P on the surface. The change of position is noted by $dx$ and $dy$."
+      }
+    ]
+  },
+  "cost": 0.0007810499999999999
+}

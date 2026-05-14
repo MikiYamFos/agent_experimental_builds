@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If z is a function of x and y, i.e. z = f(x, y), the total differential dz is obtained from the partial differentials dx and dy by the use of the following relation:"
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{dz}{dx} dx + \\frac{dz}{dy} dy",
+        "description": "This equation shows how the total differential dz can be expressed in terms of the partial derivatives with respect to x and y."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we derive it from the fundamental idea of functions of two changes, and introduce the actually measurable quantities like x, y, and z."
+      },
+      {
+        "type": "figure",
+        "caption": null,
+        "description": "The figure illustrates the relationship between the variables x, y, and z in the context of differentiation, depicting how changes in x and y affect z.",
+        "figure_number": 1
+      },
+      {
+        "type": "text",
+        "text": "Thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{total change in } z = \\Delta z = \\Delta x \\cdot \\frac{dz}{dx} + \\Delta y \\cdot \\frac{dz}{dy}",
+        "description": "This equation represents the total change in z, expressed in terms of the changes in x and y multiplied by their respective rates of change."
+      },
+      {
+        "type": "text",
+        "text": "Let P be a point (x, y) on a surface, and let P move to a new position Q near to P on the surface. The change of position is most easily referred to a diagram (Fig. 21). The change in z due to the change in x."
+      }
+    ]
+  },
+  "cost": 0.00077205
+}

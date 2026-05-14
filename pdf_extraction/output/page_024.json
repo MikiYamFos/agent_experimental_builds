@@ -1,0 +1,31 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following relation: \n\n$$dz = \\frac{\\partial z}{\\partial x} dx + \\frac{\\partial z}{\\partial y} dy.$$"
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of changes in $x$ and $y$, and introduce the actually measurable quantities like $\\Delta x$ and $\\Delta y$. "
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 21. Representation of the change in position on the surface defined by $z = f(x, y)$.",
+        "description": "The figure illustrates the relationship between changes in $x$, $y$, and $z$. It shows how a change in position on the surface can be represented, emphasizing the movement along the coordinates and its influence on the output variable $z$.",
+        "figure_number": 21
+      },
+      {
+        "type": "text",
+        "text": "Thus:\n\n$$\\Delta z = \\Delta z \\text{  change in } z.$$ \n\nor total change in $z$: \n\n$$\\Delta z = \\Delta z \\text{ change in } z.$$"
+      },
+      {
+        "type": "text",
+        "text": "Let $P$ be a point $(x, y)$ on a surface, and let $P$ move to a new position $Q$ near to $P$. The change of position is molded by the rate at which $z$ changes on the surface (e.g., keeping $z$ constant)."
+      }
+    ]
+  },
+  "cost": 0.0007810499999999999
+}

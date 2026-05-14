@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following rule:"
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{\\partial z}{\\partial x} dx + \\frac{\\partial z}{\\partial y} dy",
+        "description": "This equation expresses the total differential of a function in terms of its partial derivatives."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of $x$, $y$, and $z$, and introduce the actually measurable quantities like $x$, $y$, and $z$."
+      },
+      {
+        "type": "figure",
+        "caption": "Variation of $z$ as $x$ and $y$ change",
+        "description": "The figure illustrates the relationship between the change in $z$ with respect to changes in $x$ and $y$. It represents how moving on the surface defined by $z = f(x,y)$ alters the value of $z$. The directional change is key to understanding how partial derivatives contribute to the total differential.",
+        "figure_number": 1
+      },
+      {
+        "type": "text",
+        "text": "Thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{or total change in } z = \\text{change in } z \\text{ due to the change in } x.",
+        "description": "This statement connects the total change in $z$ to its response to changes in the independent variable $x$."
+      },
+      {
+        "type": "text",
+        "text": "Let $P$ be a point $(x, y, z)$ on a surface, and let $P$ move to a new position $Q$ near to $P$. The change of position is marked by the differential $dx$, $dy$, and the fact can be better illustrated by referring to a diagram (Fig. 21)."
+      }
+    ]
+  },
+  "cost": 0.0008092500000000001
+}

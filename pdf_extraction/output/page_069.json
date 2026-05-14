@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following rule:"
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{\\partial z}{\\partial x} dx + \\frac{\\partial z}{\\partial y} dy",
+        "description": "The total differential of a function in terms of its partial derivatives."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we know from the fundamental idea of change, and introduce the actually measurable quantities like $x$, $y$, and $z$. "
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 21",
+        "description": "Illustration of how the change in $z$ is related to the changes in $x$ and $y$. The relationship is depicted through a geometric representation of the variables.",
+        "figure_number": 21
+      },
+      {
+        "type": "text",
+        "text": "Thus,"
+      },
+      {
+        "type": "equation",
+        "latex": "\\Delta z = change \\ in \\ z \\ due \\ to \\ the \\ change \\ in \\ x + change \\ in \\ z \\ due \\ to \\ the \\ change \\ in \\ y.",
+        "description": "Summarizes that the total change in $z$ can be attributed to the individual changes caused by $x$ and $y$."
+      },
+      {
+        "type": "text",
+        "text": "Let $P$ be a point $(x, y)$ on a surface, and let $P$ move to a new position $Q$ near to $P$. The change of position is noted by $\\Delta x$ and $\\Delta y$. The initial height at $P$ on the surface (y being kept constant)."
+      }
+    ]
+  },
+  "cost": 0.00078885
+}

@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e. $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following relationship:"
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{\\partial z}{\\partial x} dx + \\frac{\\partial z}{\\partial y} dy",
+        "description": "This relationship shows how the total differential $dz$ is computed using partial derivatives with respect to $x$ and $y$."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of a function and change, and introduce the actually measurable quantities like $x$, $y$, and $z$."
+      },
+      {
+        "type": "figure",
+        "caption": null,
+        "description": "The figure illustrates a point on a surface represented by $z$ versus $x$ and $y$. It conveys the idea of how changes in $x$ and $y$ lead to a change in $z$ as the point moves on the surface.",
+        "figure_number": 1
+      },
+      {
+        "type": "text",
+        "text": "Thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\Delta z = \\text{change in } z \\text{ due to the change in } x + \\text{ change in } z \\text{ due to the change in } y.",
+        "description": "This expresses how the total change in $z$ can be attributed to changes in both $x$ and $y$."
+      },
+      {
+        "type": "text",
+        "text": "Let P be a point $(x, y)$ on a surface, and let P move to a new position Q near to P on the surface. The change of position is made by referring to a diagram (Fig. 21). The change in $z$ due to the change in position is important because it shows how $\frac{dz}{dx}$ and $\frac{dz}{dy}$ affect the total change."
+      }
+    ]
+  },
+  "cost": 0.00081525
+}

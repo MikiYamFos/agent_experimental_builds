@@ -1,0 +1,27 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following rule:\n\n$$dz = \frac{dz}{dx}dx + \frac{dz}{dy}dy$$."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of change, and introduce the actually measurable quantities like $x$, $y$, and $z$."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 21. Change in position on a surface.",
+        "description": "The figure illustrates how a change in position on a surface (represented by point Q) is based on the rate of change in x and y, leading to a corresponding change in z. It visually conveys the relationship between the variables in a differential context.",
+        "figure_number": 21
+      },
+      {
+        "type": "text",
+        "text": "Thus:\n\n$$\text{change in } z = \text{change in } x \times \frac{dz}{dx} + \text{change in } y \times \frac{dz}{dy}$$.\n\nBy this rule, for a point $P$ at $(x, y)$, an increase in $x$ and $y$ can be measured by the product of the change in $x$ multiplied by the rate at which $z$ is changing with respect to $x$; and this fact can be better illustrated by referring to a diagram (Fig. 21)."
+      }
+    ]
+  },
+  "cost": 0.00076785
+}

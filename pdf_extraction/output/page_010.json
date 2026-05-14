@@ -1,0 +1,36 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following relation:"
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{\\partial z}{\\partial x} \\cdot dx + \\frac{\\partial z}{\\partial y} \\cdot dy",
+        "description": "This equation represents the total differential of a function $z$ in terms of its partial derivatives with respect to $x$ and $y$."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of change, and introduce the actually measurable quantities like $x$ and $y$."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 21",
+        "description": "This figure illustrates the change in $z$ as a function of changes in $x$ and $y$ using the total differential, where point $P$ represents the initial position and point $Q$ represents the new position after a change in values.",
+        "figure_number": 21
+      },
+      {
+        "type": "text",
+        "text": "Thus:\n\n$\\text{change in } z = \\text{change in } z / \\text{change in } x \\cdot \\text{change in } x + \\text{change in } z / \\text{change in } y \\cdot \\text{change in } y.$"
+      },
+      {
+        "type": "text",
+        "text": "The change in $z$ due to a change in $x$ and $y$ can be measured by the product of the change in $x$ multiplied by the rate at which $z$ is changing with respect to $x$; and this fact can be better illustrated by referring to a diagram (Fig. 21).\n\nLet $P$ be a point $(x, y)$ on a surface, and let $P$ move to a new position $Q$ near to $P$. The change of position is denoted by $dx$ and $dy$ on the surface (by keeping $z$ constant)."
+      }
+    ]
+  },
+  "cost": 0.00083745
+}

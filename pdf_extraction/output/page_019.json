@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following formula:"
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{\\partial z}{\\partial x} dx + \\frac{\\partial z}{\\partial y} dy",
+        "description": "This formula expresses the total differential of a function of multiple variables."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we derive from the fundamental idea of motion, and introduce the actually measurable quantities like $x$ and $y$."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 21",
+        "description": "The figure illustrates the change in $z$ as it varies with $x$ and $y$, highlighting how the position on the surface transitions as the point $(x, y)$ moves around.",
+        "figure_number": 21
+      },
+      {
+        "type": "text",
+        "text": "Thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{rate} \\; \\text{of} \\; \\text{change} \\; in \\; z = \\text{change in} \\; z \\text{ due to the change in} \\; x+\\text{ change in} \\; z \\text{ due to the change in} \\; y.",
+        "description": "This relates the rates of change in the variables with respect to the total change in $z$."
+      },
+      {
+        "type": "text",
+        "text": "Let $P$ be a point $(x, y)$ on a surface, and let $P'$ move to a new position $Q$ near to $P$. The change of position is most likely to be represented by a vector on the surface (e.g., keeping constant)."
+      }
+    ]
+  },
+  "cost": 0.00079605
+}

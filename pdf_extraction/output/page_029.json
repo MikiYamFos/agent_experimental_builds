@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If z is a function of x and y, i.e., z = f(x, y), the total differential dz is obtained from the partial differentials dx and dy by the use of the following formula:"
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{\\partial z}{\\partial x} dx + \\frac{\\partial z}{\\partial y} dy",
+        "description": "The total differential of a function z in terms of its partial derivatives with respect to x and y."
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of calculus, and introduce the actually measurable quantities like z, x, and y."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 21. The change in z due to the change in x and y.",
+        "description": "This figure illustrates how a point on a surface changes as it moves in the x-y plane, reflecting the total differential of z with respect to x and y.",
+        "figure_number": 21
+      },
+      {
+        "type": "text",
+        "text": "Thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{or total change in } z = \\Delta z = \\text{change in } z \\text{ due to the change in } x.",
+        "description": "Defines the total change in z as a function of the changes in x and y."
+      },
+      {
+        "type": "text",
+        "text": "Let P be a point (x, y) on a surface, and let P move to a new position Q near P on the surface. The change of position is almost like a line segment from P to Q on the surface (y being kept constant)."
+      }
+    ]
+  },
+  "cost": 0.00076845
+}

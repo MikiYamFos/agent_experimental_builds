@@ -1,0 +1,23 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following formula: \n$$dz = \\frac{\\partial z}{\\partial x} dx + \\frac{\\partial z}{\\partial y} dy.$$ \nThe reason for this is more clearly seen if we work from the fundamental idea of $x$, $y$, and $z$, and introduce the actually measurable quantities like $\\Delta x$ and $\\Delta y$."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 21",
+        "description": "The figure illustrates a point $P$ on the surface defined by $z=f(x,y)$. It shows how a change in position on the surface can be represented in terms of the changes in $x$ and $y$, demonstrating how the total differential relates to these changes.",
+        "figure_number": 21
+      },
+      {
+        "type": "text",
+        "text": "Thus: \n\n$\\Delta z = \\Delta z = change \\; in \\; z = change \\; in \\; x + change \\; in \\; y.$ \n\nLet $P$ be a point $(x, y, z)$ on a surface, and let $P$ move to a new position $Q$ near to $P$. The change of position is noted by an increase in $x$ and $y$; and that fact can be better illustrated by referring to a diagram (Fig. 21). \nThe change in $z$ due to the change in $x$ is measured by the product of the change in $x$ multiplied by the rate at which $z$ changes with respect to $x$."
+      }
+    ]
+  },
+  "cost": 0.00079305
+}

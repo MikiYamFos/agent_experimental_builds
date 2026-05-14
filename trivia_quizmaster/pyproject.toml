@@ -1,0 +1,12 @@
+[project]
+name = "trivia-quizmaster"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "logfire>=4.32.1",
+    "pydantic-ai>=1.89.1",
+    "questionary>=2.1.1",
+    "requests>=2.33.1",
+]
